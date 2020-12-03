@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+}
+
+header .my-container1 nav a span:nth-child(1) {
+  color: red;
+}
+
+header .my-container1 nav form button img {
+  width: 20px;
+}
+
+header .my-container1 .my-container2 {
+  width: 30rem;
+  min-height: 400px;
+  padding: 20px 0px;
+}
+
+header .my-container1 .my-container2 img {
+  width: 100% !important;
+}
+
+@media (max-width: 580px) {
+  .my-container2 {
+    width: 100% !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
